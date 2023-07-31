@@ -5,6 +5,7 @@ body {
     margin: 0;
     padding: 0;
     background-color:#CECECE;
+    scroll-behavior:smooth;
 }
 
 
@@ -38,10 +39,22 @@ main{
 nav ul{
     display:inline-flex;
     list-style:none;
-    font-family:"Gr-Regular";
-    font-size:11px;
     gap:1vw;
     justify-content:flex-end;
+}
+
+nav ul a{
+    color:rgba(19, 18, 18, 0.412);
+    text-decoration:none;
+    cursor: pointer;
+    font-family:"Gr-Regular";
+    font-size:11px;
+}
+nav ul a:hover{
+    color:black;
+}
+nav ul a:active {
+    text-decoration: underline;
 }
 
 .section-hero-p-1{

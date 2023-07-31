@@ -27,8 +27,11 @@ function simulateLoader() {
                         duration:1.4,
                         stagger:0.05,
                         onComplete:()=>{
-                            //window.scrollTo(0,0);
+                            window.scrollTo(0,0);
                             gsap.to(".reveal-page > .reveal-loader",{
+                                opacity:0
+                            });
+                            gsap.to(".reveal-page",{
                                 display:"none"
                             });
                         }
