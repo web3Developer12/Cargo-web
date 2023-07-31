@@ -45,6 +45,8 @@
     .section-hero-p-1{
         font-size:calc(.7em + 1vw);
     }
+
+
 }
 
 @media (max-width: 600px) {
@@ -68,4 +70,7 @@
         font-size:calc(.4em + 1vw);
         margin-bottom:4%;
     }
+
+
+    
 }
