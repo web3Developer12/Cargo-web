@@ -1,0 +1,71 @@
+@media (max-width: 900px) {
+    .car{
+    display:none;
+    }
+
+    .hello-section{
+        justify-content:center;
+    }
+
+    .car-2{
+        display:block;
+        position:absolute;
+        top:150%;
+        left:50%;
+        transform:translate(-50%,-50%) rotate(0deg);
+        z-index:12;
+        width:70vw;
+    }
+
+    .media-player-icon{
+        width:80px;
+        height:80px;
+    }
+
+    .section-services .infos{
+        display:flex;
+        flex-direction:column;
+    }
+
+    .about-intro{
+        width:70%;
+    }
+
+    .ceil-bus{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+    }
+
+    .ceil-bus img {
+        width:84vw;
+    }
+
+    .section-hero-p-1{
+        font-size:calc(.7em + 1vw);
+    }
+}
+
+@media (max-width: 600px) {
+
+    .hello-section span{
+        font-size:calc(1em + 6vw);
+    }
+
+
+    .car-2{
+        display:block;
+        position:absolute;
+        top:200%;
+        left:50%;
+        transform:translate(-50%,-50%) rotate(18deg);
+        z-index:12;
+        width:90vw;
+    }
+
+    .section-hero-p-1{
+        font-size:calc(.4em + 1vw);
+        margin-bottom:4%;
+    }
+}

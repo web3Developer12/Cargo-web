@@ -1,0 +1,67 @@
+/*Grotesk - Grand */
+
+@font-face {
+    font-family:"Gr-Regular";
+    src: url("../assets/fonts/Cy.Grotesk/Cy\ Grotesk\ Grand\ Regular.ttf");
+}
+
+@font-face {
+    font-family:"Gr-Medium";
+    src: url("../assets/fonts/Cy.Grotesk/Cy\ Grotesk\ Grand\ Medium.ttf");
+}
+
+
+@font-face {
+    font-family:"Gr-Demi";
+    src: url("../assets/fonts/Cy.Grotesk/Cy\ Grotesk\ Grand\ Demi.ttf");
+}
+
+
+@font-face {
+    font-family:"Gr-Dark";
+    src: url("../assets/fonts/Cy.Grotesk/Cy\ Grotesk\ Grand\ Dark.ttf");
+}
+
+@font-face {
+    font-family:"Gr-Bold";
+    src: url("../assets/fonts/Cy.Grotesk/Cy\ Grotesk\ Grand\ Bold.ttf");
+}
+
+@font-face {
+    font-family:"Gr-Black";
+    src: url("../assets/fonts/Cy.Grotesk/Cy\ Grotesk\ Grand\ Black.ttf");
+}
+
+/*Grotesk - key */
+
+@font-face {
+    font-family:"Gr-key-Regular";
+    src: url("../assets/fonts/Cy.Grotesk/Cy\ Grotesk\ Key\ Regular.ttf");
+}
+
+@font-face {
+    font-family:"Gr-key-Medium";
+    src: url("../assets/fonts/Cy.Grotesk/Cy\ Grotesk\ Key\ Medium.ttf");
+}
+
+
+@font-face {
+    font-family:"Gr-key-Demi";
+    src: url("../assets/fonts/Cy.Grotesk/Cy\ Grotesk\ Key\ Demi.ttf");
+}
+
+
+@font-face {
+    font-family:"Gr-key-Dark";
+    src: url("../assets/fonts/Cy.Grotesk/Cy\ Grotesk\ Key\ Dark.ttf");
+}
+
+@font-face {
+    font-family:"Gr-key-Bold";
+    src: url("../assets/fonts/Cy.Grotesk/Cy\ Grotesk\ Key\ Bold.ttf");
+}
+
+@font-face {
+    font-family:"Gr-key-Black";
+    src: url("../assets/fonts/Cy.Grotesk/Cy\ Grotesk\ Key\ Black.ttf");
+}
