@@ -123,7 +123,7 @@ function animateHome(_delay){
 
 gsap.to(".band-1 > p",{
     scrollTrigger: {
-        trigger: ".about",
+        trigger: ".about-intro",
         toggleActions:"restart pause reverse none"
     },
     x:142,
@@ -134,7 +134,7 @@ gsap.to(".band-1 > p",{
 
 gsap.to(".band-2 > p",{
     scrollTrigger: {
-        trigger: ".about",
+        trigger: ".about-intro",
         toggleActions:"restart pause reverse none"
     },
     x:142,
