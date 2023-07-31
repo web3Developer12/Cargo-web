@@ -120,7 +120,7 @@ function animateHome(_delay){
     });
 }
 
-/*
+
 gsap.to(".band-1 > p",{
     scrollTrigger: {
         trigger: ".about",
@@ -143,4 +143,3 @@ gsap.to(".band-2 > p",{
     duration:1.4,
 });
 
-*/
