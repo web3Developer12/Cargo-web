@@ -204,7 +204,7 @@ nav ul{
     margin-bottom:auto;
     color:#0D1A28;
     font-family:"Gr-Black";
-    font-size:145px;
+    font-size:calc(1em + 9vw);
     padding-bottom:2%;
     padding-right:2%;
 }
