@@ -25,6 +25,7 @@
     .section-services .infos{
         display:flex;
         flex-direction:column;
+        padding-inline:6%;
     }
 
     .about-intro{
@@ -46,10 +47,6 @@
         font-size:calc(.7em + 1vw);
     }
 
-    .section-services .infos{
-        padding-inline:5%;
-
-    }
 }
 
 @media (max-width: 600px) {

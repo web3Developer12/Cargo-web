@@ -21,13 +21,13 @@ function simulateLoader() {
             gsap.to(".counter",{
                 y:12,opacity:0, ease:"power4.inOut",duration:1.4,stagger:0.1,
                 onComplete:()=>{
+                    window.scrollTo(0,0);
                     gsap.to(".reveal-page > .reveal-loader",{
                         y:930,
                         ease:"power4.inOut",
                         duration:1.4,
                         stagger:0.05,
                         onComplete:()=>{
-                            window.scrollTo(0,0);
                             gsap.to(".reveal-page > .reveal-loader",{
                                 opacity:0
                             });
