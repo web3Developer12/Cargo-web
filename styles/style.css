@@ -332,3 +332,25 @@ nav ul a:active {
     display:none;
 }
 
+.track {
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee 162s linear infinite;
+  }
+  
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+  
+  .track-2 {
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee2 162s linear infinite;
+  }
+  
+  @keyframes marquee2 {
+    from { transform: translateX(0); }
+    to { transform: translateX(50%); }
+  }
+  
