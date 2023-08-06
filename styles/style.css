@@ -332,3 +332,16 @@ nav ul a:active {
     display:none;
 }
 
+.gallery-image{
+    display:grid;
+    grid-template-columns:repeat(2,auto);
+    gap:1%;
+}
+.ceil-image{
+    background-color:red;
+    overflow:hidden;
+}
+.ceil-image img{
+    width:100%;
+    height:100%;
+}
